@@ -23,7 +23,7 @@ In command prompt, initiate python followed by program name and text file name t
 ## PROGRAM:
 #name:Varsha Ajith
 #ref no:21500246
-
+```
 import sys
 count=0
 with open(sys.argv[1],'r') as f:
@@ -31,9 +31,9 @@ with open(sys.argv[1],'r') as f:
         word = line.split()
         count += len(word)
 print("Word Count in File = ",count)
-
+```
 ### OUTPUT:
-
+![output](./image3.png)
 
 
 ## RESULT:
